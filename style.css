@@ -1,123 +1,125 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-	color: #555;
 	margin: 0;
 	
 	font-family: 'Montserrat', sans-serif;
 }
 
 #header {
-	background-color: #1abc9c;
+	text-align: center;
+	background-color: #0079B8;
 	height: 150px;
-	line-height: 150px;
-}
-
-#header a {
-	color: white;
-	text-decoration: none;
-	
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
-
-#header a:hover {
-	color: #222; 
 }
 
 #header-title {
-	display: block;
-	float: left;
-	padding-left: 15px;
+	font-size: 40px;
+	font-style: bolder;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 50px;
+	}
 	
-	font-size: 20px;
-	font-weight: bold;
+#header-subtitle {
+	color: white;
+	font-style: bold;
+	text-transform: lowercase;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	padding-top: 5px;
 }
 
-#header-nav {
-	display: block;
-	float: right;
-	padding-right: 15px;
-	margin-top: 0;
+#menu {
+	font-size: 15px;
+	color: #4c5454;
+	text-transform: lowercase;
+	text-align: center;
 }
 
-#header-nav li {
-	display: inline;
-	padding-left: 20px;
+
+#nav-title li {
+	display: inline-block;
 }
 
-.container {
+ul {
+	list-style: none;	
+}
+
+li {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#content {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 15px;
+	text-align: center;
+}
+
+.page-title {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px 15px 15px 15px;
+	
+}
+
+.profile {
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px 15px 15px 15px;
+	display: inline;
+}
+
+.profile img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px;
+}
+
+
+.profile-content {
+	display: inline-block;
+	padding: 15px;
+	vertical-align: top;
+	max-width: 600px;
+}
+
+
+button {
+	background-color: #0079B8;
+	color: white;
+	border: none;
+	text-align: center;	
+	padding: 15px 32px;
+	display: inline-block;
+	margin: 20px;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 #footer {
 	background-color: #2f2f2f;
-	padding: 50px 0;
-}
-.column {
-	min-width: 300px;
-	display: inline-block;
-	vertical-align: top;
+	padding: 40px 0;
 }
 
-#footer h4 {
+.footer-content {
 	color: white;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
-
-#footer p {
-	color: white;
-}
-
-a {
-	color: #1abc9c;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #F6A623;
-}
-
-.post {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 60px 0;
-}
-
-.post-author img {
-	width: 50px;
-	height: 50px;
-	vertical-align: middle;
-	border-radius: 25px;
-}
-
-.post-author span {
-	margin-left: 16px;
-}
-
-.post-date {
-	color: #D2D2D2;
-	
-	font-size: 14px;
-	font-weight: bold;
-	
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
-
-h1, h2, h3, h4 {
-	color: #333;
+	text-align: center;
+	padding: 10px;
 }
 
 p {
-	line-height: 1.5;
+	line-height: 1.8;
+	font-size: 14px;
 }
 
-.post, .about {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 60px 0;
-}
+
+
