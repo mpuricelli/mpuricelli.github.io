@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700;800;900&display=swap);
 
 body {
 	margin: 0;
-	
+
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -124,45 +124,41 @@ p {
 
 /* Resume Page */
 
-#resume-content {
-	max-width: 700px;
+#resume {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.resume-row {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .column1 {
-  float: left;
-  width: 30%;
-  border-color: black;
-  border-left-width: 2pt;
-  border-style: solid;
+	float: left;
+	width: 30%;
 }
 
 .column2 {
-	float: right;
-	width: 65%;
-	border-color: black;
-  	border-left-width: 2pt;
-  	border-style: solid;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+	float: left;
+	width: 70%;
 }
 
 .job-date {
-	text-align: left;
+	font-size: 16px;
+	font-style: bold;
+	padding-bottom: 10px;
 }
 
-.job-employer {
-	text-align: left;
+.employer {
+	font-size: 16px;
+	font-weight: 600;
+	color: darkgray;
 }
 
 .job-title {
-	text-align: left;
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 10px;
 }
-
-.job-description {
-	text-align: left;
-}
-
